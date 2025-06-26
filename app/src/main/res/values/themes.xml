@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyLogin" parent="android:Theme.Material.Light.NoActionBar"/>
+
+    <style name="Theme.MyLogin.Firebase" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_app_primary</item>
+        <item name="colorOnPrimary">@color/my_app_on_primary</item>
+        <item name="colorSurface">@color/my_app_surface</item>
+        <item name="colorOnSurface">@color/my_app_on_surface</item>
+        <item name="android:colorBackground">@color/my_app_background</item>
+
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:buttonStyle">@style/FirebaseUI.Button</item>
+        <item name="android:textColorLink">?attr/colorPrimary</item>
+    </style>
+</resources>
